@@ -19,7 +19,9 @@ public class Game {
     private String platforms;
     private Double score;
     private String imgUrl;
+    @Column(columnDefinition = "TEXT") //Use quando você quer criar uma dscrição com mais 255 caracteres
     private String shortDescription;
+    @Column(columnDefinition = "TEXT") //Use quando você quer criar uma dscrição com mais 255 caracteres
     private String longDescription;
 
     //Construtor vazio
